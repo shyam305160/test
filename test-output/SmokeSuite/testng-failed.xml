@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]" parallel="tests">
+  <test name="Sprint1">
+    <classes>
+      <class name="com.core.framework.HybridFramework.testsuite.Sample"/>
+    </classes>
+  </test> <!-- Sprint1 -->
+  <test name="Sprint1(failed)" parallel="tests">
+    <classes>
+      <class name="com.core.framework.HybridFramework.testsuite.Sample">
+        <methods>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- com.core.framework.HybridFramework.testsuite.Sample -->
+    </classes>
+  </test> <!-- Sprint1(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

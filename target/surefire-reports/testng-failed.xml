@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.core.framework.HybridFramework.testsuite.GmailTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="GmailTest1" invocation-numbers="2"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.core.framework.HybridFramework.testsuite.GmailTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
